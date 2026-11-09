@@ -1,0 +1,19 @@
+# Research data: never commit without explicit permission
+/data/private/*.sav
+/data/private/*.xlsx
+/data/private/*.xls
+/data/private/*.csv
+*.sav
+*.xlsx
+*.xls
+*.csv
+
+# Locally generated analysis outputs
+/results_D.csv
+/results_D.zip
+
+# Python and notebook runtime files
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
